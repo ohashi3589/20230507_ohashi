@@ -1,0 +1,274 @@
+.search-form-container {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1200px;
+  border: 1px solid black;
+  height: 20%;
+}
+
+.search-button {
+  display: block;
+  margin: 0 auto;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 40px;
+}
+
+h1 {
+  text-align: center;
+  margin: 40px;
+}
+
+.search-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 20px 50px 15px 50px;
+}
+
+.search-button {
+  margin-top: 30px;
+}
+
+.search-form {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.form-group {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 60px;
+  margin-bottom: 20px;
+}
+
+.form-label {
+  display: inline-block;
+  width: 120px;
+  margin-right: 40px;
+  text-align: right;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+.form-group3 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.form-group3 div {
+  margin-right: 5px;
+}
+
+.search-form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form-group4 {
+  margin-right: 20px;
+}
+
+form>div:last-child {
+  margin-bottom: 0;
+}
+
+.form-group3 input[type="date"] {
+  width: 205px;
+  height: 30px;
+  margin-right: 20px;
+}
+
+#created_at_end {
+  margin-left: 20px;
+}
+
+.form-control {
+  border: 1px solid #CCC;
+  border-radius: 5px;
+  height: 30px;
+  width: 200px;
+}
+
+.circle-checkbox {
+  display: inline-flex;
+  align-items: center;
+  margin-right:5px;
+  height: 30px;
+  width: auto;
+  cursor: pointer;
+}
+
+.checkmark {
+  position: relative;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 100%;
+  width: 30px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+}
+
+.circle-checkbox input {
+  visibility: hidden;
+}
+
+.circle-checkbox input:checked+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #000000;
+}
+
+.gender-label{
+  font-weight: bold;
+}
+
+.reset-link {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+  color: black;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+  border-top: 1px solid black;
+}
+
+.table {
+  font-size: 14px;
+}
+
+.table td:last-child {
+  width: 1%;
+  white-space: nowrap;
+}
+
+.table td:last-child span {
+  display: none;
+}
+
+.table td:last-child:hover span {
+  display: inline;
+  position: absolute;
+  background-color: #fff;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  z-index: 1;
+}
+
+.table td:last-child:hover span::before {
+  content: attr(data-content);
+}
+
+.table {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 14px;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 8px;
+  text-align: left;
+}
+
+.table td:nth-of-type(5) {
+  max-width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.table td:nth-of-type(5):hover {
+  white-space: normal;
+  overflow: visible;
+  z-index: 999;
+  background-color: #f2f2f2;
+  position: absolute;
+}
+
+svg.w-5.h-5 {
+  width: 20px;
+  height: 20px;
+}
+
+.pagination-links a,
+.pagination-links span {
+  display: inline-block;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  text-decoration: none;
+  color: #000;
+  margin: 0 -3px;
+}
+
+.pagination-links a.active,
+.pagination-links a:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.pagination-links span.disabled {
+  color: #ccc;
+  cursor: not-allowed;
+}
+
+.pagination-links .dots {
+  display: inline-block;
+  margin: 0 5px;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: #000;
+}
+
+.pagination-links,
+.pagination-numbers {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pagination-links {
+  margin-left: auto;
+}
+
+.pagination-container {
+  width: 90%;
+  margin: 30px auto;
+}
+
+button[type="submit"] {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  padding: 0 20px;
+}
+
+.table-container {
+  margin-bottom: 50px;
+}
