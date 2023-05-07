@@ -14,6 +14,7 @@
 **使用技術**<br>
 Laravel 8<br><br>
 **テーブル設計**<br><br>
-
+<img width="500" alt="table" src="https://user-images.githubusercontent.com/122582061/236658629-9eaf9059-b190-4b7f-8706-6ddfe172b4b9.png">
 
 **ER図**<br>
+![ER drawio](https://user-images.githubusercontent.com/122582061/236658674-765c3bfa-99c5-43da-88a2-cb434faf7cad.png)
